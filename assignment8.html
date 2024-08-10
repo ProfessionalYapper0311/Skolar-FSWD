@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms with Select and Radio Buttons</title>
+    <link rel="stylesheet" href="css/style8.css" type="text/css">
+    <link rel="icon" href="download.jpg" type="image/png">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <hr>
+    <br><br>
+    <form action="/submit" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="Male">
+                <input type="radio" id="Male" name="gender" value="Male">
+                Male
+            </label>
+            <br>
+            <label for="Female">
+                <input type="radio" id="Female" name="gender" value="Female">
+                Female
+            </label>
+            <br>
+            <label for="Others">
+                <input type="radio" id="Others" name="gender" value="Others">
+                Others   
+            </label>
+        </fieldset>
+        <br><br>
+        <label for="country">
+            Country
+        </label>
+        <select id="country" name="country">
+            <option value="Select a Country">Select a Country</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="German">German</option>
+            <option value="India">India</option>
+            <option value="Israel">Israel</option>
+            <option value="Italy">Italy</option>
+            <option value="New Zealand">New Zealand</option>
+            <option value="Russia">Russia</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="UAE (United Arab Emirates)">UAE (United Arab Emirates)</option>
+            <option value="UK (United Kingdom)">UK (United Kingdom)</option>
+            <option value="USA">USA</option>
+            <option value="West Indies">West Indies</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+    </form>   
+</body>
+</html>

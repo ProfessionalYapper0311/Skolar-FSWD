@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sematic HTML Elements</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" href="download.jpg" type="image/png">
+    <style>
+        h1{
+            font-style: italic;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: justify;
+        }
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+         header{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a{ 
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+            color:#545454;
+        }
+        main{
+            display: flex;
+            margin: 20px;
+        }
+        article{
+            background-color: #f7f7f7;
+            flex: 3;
+            margin-right: 20px;
+        }
+        asie{
+            flex: 1px;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        .meaning{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
+        footer{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%
+        }            
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="/home">Home</a></li> 
+            <li><a href="/About">About</a></li>      
+            <li><a href="/Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<br>
+    <main>
+        <article>
+            <h1>What is Lorem Ipsum?</h1>
+            <p></p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+            <p class = "meaning">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quidem perferendis officiis fugiat, placeat consequuntur quam, odit est distinctio quaerat reiciendis nulla illum atque corporis, dolorum dolorem eveniet. Quisquam, nobis?</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </article>
+
+        <aside>
+            <h2>External Links</h2>
+            <ul>
+                <li><a href="https://www.lipsum.com/" target="_blank" title="redirects to a new webpage">Lipsum Official</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Lorem_ipsum#:~:text=id%20est%20laborum.-,Source%20text,De%20finibus%20bonorum%20et%20malorum." target="_blank" title="redirects to a new webpage">Wiki Sources</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Contact US at: <a href="mailto::testexample@fake.com">testexample@fake.com</a></p>
+        <p>&copy; 2021 All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
